@@ -35,17 +35,17 @@ steps:
     command: 'restore'
     projects: '**/*.csproj'
 
-- task: templates/build.yml
+- template: templates/build.yml
   parameters:
     buildConfiguration: 'Debug'
 
-- task: templates/build.yml
+- template: templates/build.yml
   parameters:
     buildConfiguration: 'Test'
 
 - task: SonarQubeAnalyze@4
 
-- task: templates/build.yml
+- template: templates/build.yml
   parameters:
     buildConfiguration: 'Release'
 
