@@ -37,17 +37,17 @@ steps:
 
 - task: templates/build.yml
   parameters:
-          buildConfiguration: 'Debug'
+    buildConfiguration: 'Debug'
 
 - task: templates/build.yml
   parameters:
-          buildConfiguration: 'Test'
+    buildConfiguration: 'Test'
 
 - task: SonarQubeAnalyze@4
 
 - task: templates/build.yml
   parameters:
-          buildConfiguration: 'Release'
+    buildConfiguration: 'Release'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
