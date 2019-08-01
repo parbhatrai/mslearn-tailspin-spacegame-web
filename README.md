@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/prabrai11/javadevopsproject/_apis/build/status/parbhatrai.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/prabrai11/javadevopsproject/_build/latest?definitionId=4&branchName=master)
 
 # Contributing
 
